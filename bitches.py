@@ -36,12 +36,13 @@ if __name__ == "__main__":
             print("nicely done, a solid number!") 
         elif newnumber == 666 :
             print("You know Loose-ifer???") 
-        
+        else :
+            print("decent number but kinda lame ngl...... pussy") 
 
-        decision = input("Now can I add my number to yours?") 
-
+        decision = input("Now can I add my number to yours?\n") 
         if decision in affirmitive_responses:
-            print("666") 
-
+            print("sick, here it is; 42069666") 
+        else: 
+            print("fine I guess you're gay")
     else: # this will run if they dont say literally yes
-        print("Well I'd like to talk to yoour manager, you fat cunt. I'm angry, go kill yourself now please")
+        print("Well I'd like to talk to your manager, you fat cunt. I'm angry, go kill yourself now please")
