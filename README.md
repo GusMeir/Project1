@@ -5,7 +5,7 @@ Need code: git pull "link from git hub, or name of branch"
 Saving branches: git add . (all) , 
     git commit 
 To upload to git hub: git push -m "short message"   *Dont push Heaps of things* 
-
+for history: git reflog
 
 # Virtual Environments 
 For different coding projects so packages, modules, plugins, LIBARY dont clash with each other 
