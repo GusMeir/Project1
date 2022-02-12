@@ -5,7 +5,10 @@ import numpy as np
 
 #### CONTANTS
 affirmitive_responses = ["yes","Yes","y","Y","Okay","okay","Fine","fine"]
-
+cool_numbers = {"420": "Yo we should blaze it up homie",
+                "69": "nicely done, a solid number!",
+                "666": "You know Loose-ifer???",
+                "42": "the meaning of life"}
 
 ###################################### MAIN
 if __name__ == "__main__":
@@ -30,12 +33,8 @@ if __name__ == "__main__":
                 annoy = wrong_attempts*"new "
                 newnumber = input("pick a " + annoy + "number\n")
 
-        if newnumber == 420 :
-            print("Yo we should blaze it up homie")
-        elif newnumber == 69 :
-            print("nicely done, a solid number!") 
-        elif newnumber == 666 :
-            print("You know Loose-ifer???") 
+        if str(newnumber) in cool_numbers :
+            print(cool_numbers[str(newnumber)])
         else :
             print("decent number but kinda lame ngl...... pussy") 
 

@@ -1,4 +1,4 @@
-import .bitches
+import  bitches
 
 
 print("hoes mad ")
