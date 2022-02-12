@@ -4,8 +4,7 @@
 
 
 affirmitive_responses = ["yes","Yes","y","Y","Okay","okay","Fine","fine"]
-
-decision = input("Hi Angus, my name is Karen. Would you like to pick a number for me? Type yes or no")
+decision = input("Hi Angus, my name is Karen. Would you like to pick a number for me? Type yes or no \n")
 
 if decision in affirmitive_responses:
     print("pick a number") 
@@ -19,7 +18,7 @@ if decision in affirmitive_responses:
     print(newnumber , "is a very nice number well done!") 
     print("Now can I add my number to yours?")
     decision = input() 
-    if decision == "yes" :
+    if decision in affirmitive_responses:
         print("666") 
 else: # this will run if they dont say literally yes
     pass
