@@ -30,6 +30,13 @@ if __name__ == "__main__":
                 annoy = wrong_attempts*"new "
                 newnumber = input("pick a " + annoy + "number\n")
 
+        if newnumber == 420 :
+            print("Yo we should blaze it up homie")
+        elif newnumber == 69 :
+            print("nicely done, a solid number!") 
+        elif newnumber == 666 :
+            print("You know Loose-ifer???") 
+        
 
         decision = input("Now can I add my number to yours?") 
 
